@@ -1,6 +1,6 @@
 // /pages/api/products.js
 
-export default function handler(req, res) {
+export default function handler(_req, res) {
   console.log("Fetching products...");
   const products = [
     {

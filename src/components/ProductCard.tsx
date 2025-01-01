@@ -1,7 +1,8 @@
 "use client"; // Add this line at the top of your file
 
 import React from "react";
-import { Product } from "@/pages/types";
+import { Product } from '../types/types';
+
 
 interface ProductCardProps extends Product {
   onAddToCart: (product: Product) => void;
